@@ -18,6 +18,12 @@ const loop = setInterval(()=>{
         pipe.style.left = `${pipePosition}px`;
         mario.style.animation = 'none';
         mario.style.bottom = `${marioPosition}px`;
+
+        mario.src = './images/game-over.png';
+        mario.style.width = '60px';
+        mario.style.marginLeft = '50px';
+
+        clearInterval(loop);
     }
 },10);
 
