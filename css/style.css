@@ -37,6 +37,21 @@
     animation: jump 700ms ease-out;
 }
 
+.score-board {
+    position: absolute;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.score-text {
+    color: #EEAD2D;
+}
+
+.score {
+    margin-left: 5px;
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
